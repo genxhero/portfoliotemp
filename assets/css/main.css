@@ -3844,6 +3844,8 @@ input, select, textarea {
 				text-align: center;
 				display: flex;
 				flex-direction: row;
+			    justify-content: space-between;
+    			align-items: center;
 				width: 100%;
 				
 			}
@@ -3894,6 +3896,7 @@ input, select, textarea {
 
 				#main > .posts > article:nth-child(n) {
 					border-left-width: 0;
+					background: #eee;
 				}
 
 				#main > .posts > article:nth-child(-n + 1) {
