@@ -3842,6 +3842,7 @@ input, select, textarea {
 				border-style: solid;
 				border-top-width: 2px;
 				text-align: center;
+				display: flex;
 				flex-direction: row;
 				
 			}
