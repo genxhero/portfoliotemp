@@ -3844,6 +3844,7 @@ input, select, textarea {
 				text-align: center;
 				display: flex;
 				flex-direction: row;
+				width: 100%;
 				
 			}
 
