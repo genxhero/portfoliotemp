@@ -2486,7 +2486,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			background: white;
+			box-shadow: 2px 2px black;
 		}
 
 	select {
@@ -2586,13 +2587,13 @@ input, select, textarea {
 			}
 
 		.image.left {
-			float: left;
+			/* float: left; */
 			margin: 0 2rem 2rem 0;
 			top: 0.75rem;
 		}
 
 		.image.right {
-			float: right;
+			/* float: right; */
 			margin: 0 0 2rem 2rem;
 			top: 0.75rem;
 		}
@@ -3356,7 +3357,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color:green;
 				}
 
 		#intro h1 {
@@ -3768,6 +3769,8 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: center;
+				display: flex;
+				flex-direction: row;
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -4673,4 +4676,73 @@ input, select, textarea {
 
 	.left-aligned-list > li {
 		text-align: left;
+	}
+
+	.email-me {
+		text-align: center;
+	}
+
+	.project-container {
+		display: flex;
+		flex-direction: column;
+	    padding: 20px;
+       width: 100%;
+	}
+
+	.project-bottom {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	    align-items: center;
+		padding: 20px;
+		width: 100%;
+	}
+
+#project-list {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	width: 100%;
+}
+
+.project-header {
+  text-align: center;
+  width: 100%;
+  padding:20px;
+}
+
+.projects {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+}
+
+.side-header-right-img{
+	display: flex;
+    align-items: center;
+	justify-content: flex-end;
+	margin-right: 20px;
+	}
+
+	.side-header-left-img {
+	display: flex;
+    align-items: center;
+	justify-content: flex-start;
+	margin-left: 20px;
+	}
+
+	.profile-head {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+
+	.project-image {
+		width: 80%;
 	}
